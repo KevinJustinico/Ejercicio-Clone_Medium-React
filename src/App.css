@@ -1,0 +1,139 @@
+.content {
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #f0f0f0;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand img {
+  margin-right: 20px;
+}
+
+.search-form {
+  margin-left: 20px;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+}
+
+.input-group-text {
+  background-color: transparent;
+  border: none;
+  padding: 5px;
+}
+
+.form-control {
+  border: none;
+  padding: 5px;
+  width: 200px;
+}
+
+.right .navbar-nav {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  margin-left: 20px;
+}
+
+.nav-link {
+  color: #333;
+  text-decoration: none;
+}
+
+.nav-link.active {
+  font-weight: bold;
+  color: #bfc3c7;
+}
+
+.image {
+  border-radius: 50%;
+}
+
+.title {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.title{
+  display: flex;
+  justify-content: center;
+  padding: 24px;
+  font-size: 17px;
+}
+
+.image{
+  border-radius: 50%;
+}
+
+.info{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 32px;
+  max-width: 950px;
+}
+
+.name{
+  text-decoration: none;
+  color: black;
+}
+
+.follow{
+  text-decoration: none;
+  color: green;
+  
+}
+
+.send{
+  display: none;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 24px;
+  
+}
+
+.code{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.article{
+  margin-top: 2%;
+  display: block;
+  margin-left: 25%;
+  margin-right: 25%;
+  font-size: larger;
+}
+
+.footer{
+  margin-top: 2%;
+  display: block;
+  margin-left: 25%;
+  margin-right: 25%;
+  font-size: small;
+
+}
+
+.letter a{
+  color: #777; 
+  margin: 0 10px; 
+  text-decoration: none;
+}
